@@ -44,7 +44,7 @@ html, body {
 @font-face 
 {
     font-family: CarlSans;
-    src: url('carla-sans-regular.ttf') format('truetype');
+    src: url('/other/carla-sans-regular.ttf') format('truetype');
 }
 
 @media (max-width: 600px) { /* changes when the viewport is 600px or smaller (mobile devices or small views) */

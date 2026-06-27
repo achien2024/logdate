@@ -13,8 +13,8 @@
 
 .searchbar
 {
-    position: fixed; /* This makes the search bar stay fixed on the screen */
-    top: 85px; /* Adjust this based on your header height */
+    position: sticky; /* This makes the search bar stay fixed on the screen */
+    top: 130px; /* Adjust this based on your header height */
     z-index: 998; /* Ensures it's on top of other content */
 
     display: flex;
