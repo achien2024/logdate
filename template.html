@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<template id = "blog_template">
+    <div
+        class = "blog_header"
+    >
+        <div
+            class = "bh_left"
+        >
+            <img
+                class = "image"
+                src = 'main_imgs/log.png'
+            >
+            <p class = "name">
+                Aaron Chien
+            </p>
+        </div>
+        <div
+            class = "bh_mid"
+        >
+            <a
+                class = "home_links"
+                href = index.html
+            >
+                Aaron.log
+            </a>
+        </div>
+
+        <div
+            class = "bh_right"
+        >
+            <!-- code to create a hamburger link logo -->
+            <!-- using div instead of button for more styling freedom -->
+            <div 
+                class="bh_menu_icon"
+                onclick="toggleMenu()"
+            >
+                &#9776;
+            </div>
+            <a
+                class = "home_links"
+                href = explore.html
+            >
+                Explore
+            </a>
+
+            <a
+                class = "home_links"
+                href = links.html
+            >
+                Links
+            </a>
+        </div>    
+    </div>
+</template>
+
+<template id = "contact_template">
+    <div
+        class = "contact"
+    >
+        <p>
+            Follow Me
+        </p>
+        <div class = "contact_links">
+        
+            <a 
+                href = "https://www.threads.com/@aarhien" 
+                target = "_blank"
+            >
+                <img src = "main_imgs/threads.png">
+            </a> <!-- bluesky -->
+
+        </div>
+    </div>
+</template>
